@@ -45,7 +45,7 @@ typedef char *caddr_t;
 #endif
 
 #include <sys/types.h>
-#if defined(__OpenBSD__)
+#if defined(__OpenBSD__) || (__linux__)
 #include <stdint.h>
 #include <sys/wait.h>
 #endif
